@@ -1,0 +1,65 @@
+# Mandelbulber settings file
+# version 2.13
+# only modified parameters
+[description]
+Collatz Fractal works best modifying a Mandelbox or Menger Sponge type
+fractal. Here it is used briefly halfway through the iteration loop.
+
+Add_global_C_constant has been unchecked for the Mandelbox and only used
+for the short duration of the Collatz fractal. Uncheck
+add_global_C_constant, then uncheck the slot2-Collatz
+and you will see the subtle differences this tweak makes.
+[main_parameters]
+ambient_occlusion 0.7;
+ambient_occlusion_mode 0;
+ambient_occlusion_quality 6;
+aux_light_enabled_1 true;
+aux_light_intensity_1 1.045734220654781e-10;
+aux_light_position_1 6.227486480252148 -9.750964504429284 7.674804709637643;
+brightness 1.3;
+camera 6.228580922686327 -9.7509472425842 7.67125966579021;
+camera_distance_to_target 0.007033556340364375;
+camera_rotation 32.05245239378393 65.74445731618049 55.58357186110734;
+camera_top 0.9726699854297556 0.001041568362157852 0.2321896091116614;
+detail_level 0.5;
+dont_add_c_constant_1 true;
+dont_add_c_constant_2 true;
+flight_last_to_render 0;
+formula_1 8;
+formula_2 88;
+formula_start_iteration_2 25;
+formula_stop_iteration_1 84;
+formula_stop_iteration_2 26;
+formula_weight_1 0.99;
+gamma 1.2;
+glow_enabled false;
+hdr true;
+hybrid_fractal_enable true;
+image_height 720;
+image_width 1280;
+julia_c -1 0 0;
+keyframe_last_to_render 0;
+main_light_alpha -59.6;
+main_light_beta 45.78;
+mat1_coloring_palette_offset 7.92;
+mat1_coloring_random_seed 932116;
+mat1_coloring_saturation 1.27;
+mat1_is_defined true;
+mat1_specular 0.4;
+mat1_surface_color_palette c0a8f7 95ff18 f18b30 2ec437 2dff83 8cbe00 4396ff 1d4cff 540f39 214db9;
+shadows_enabled false;
+SSAO_random_mode true;
+target 6.22704751305552 -9.74849826587379 7.677672316004364;
+volumetric_fog_colour_1_distance 0.0001397822576954273;
+volumetric_fog_colour_2_distance 0.0002795645153908545;
+volumetric_fog_density 0.0724436;
+volumetric_fog_distance_factor 0.0002795645153908545;
+[fractal_1]
+mandelbox_folding_fixed_radius 0.1;
+mandelbox_folding_min_radius 0.1;
+mandelbox_main_rotation_enabled true;
+mandelbox_offset 0.1 0.1 0;
+mandelbox_rotation_main -10.44 4.33 14.04;
+mandelbox_scale -1.2966;
+[fractal_2]
+transf_scale_1 0;

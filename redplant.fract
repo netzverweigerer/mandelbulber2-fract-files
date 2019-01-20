@@ -1,0 +1,61 @@
+# Mandelbulber settings file
+# version 2.13
+# only modified parameters
+[main_parameters]
+ambient_occlusion 0.2;
+ambient_occlusion_enabled true;
+aux_light_colour_1 aa00 a900 8900;
+aux_light_intensity_1 0.15;
+aux_light_position_1 0 3 0;
+background_3_colors_enable false;
+background_brightness 0;
+background_color_1 0000 0000 0000;
+camera -0.09420004116963186 0.0173184974957909 0.5264273209375772;
+camera_distance_to_target 0.4387235419118711;
+camera_rotation -6.577062548130823 -1.059981085388516 0;
+camera_top 0.002118877465599012 0.01837735649735918 0.9998288769216734;
+DE_factor 0.5;
+dont_add_c_constant_1 true;
+flight_last_to_render 0;
+formula_1 125;
+glow_color_1 ff00 ff00 ff00;
+glow_color_2 8100 8100 8100;
+glow_intensity 0.8876865809637552;
+image_height 1440;
+image_width 2560;
+keyframe_last_to_render 0;
+main_light_alpha -7.13;
+main_light_intensity 0.71;
+mat1_coloring_palette_offset 20.26;
+mat1_coloring_palette_size 32;
+mat1_coloring_random_seed 256886;
+mat1_coloring_saturation 1.25;
+mat1_file_color_texture /home/armin/Pictures/einmalig_8.png;
+mat1_fractal_coloring_sphere_radius 0.88;
+mat1_is_defined true;
+mat1_shading 2;
+mat1_surface_color_palette e400c5 00ffff 9e59ff 2d1100 57de0f f3bfc5 0000ff 28fffd a4783f b8ff62 000079 d0e08f 1f5d00 58ff1c ead789 000000 97ff00 004200 0d4396 0b00da 32e490 7dffff 4e25b0 02ae11 060054 e13cb7 a1e92d 00247b 83e0f3 1541b7 edff66 6f0427;
+mat1_use_color_texture true;
+mat1_use_colors_from_palette false;
+shadows_cone_angle 2;
+target -0.04395748257179086 0.4530800862061414 0.5183113282151059;
+textured_background_map_type 2;
+use_default_bailout false;
+view_distance_max 39.91483161549563;
+[fractal_1]
+analyticDE_offset_1 0;
+analyticDE_offset_2 0;
+analyticDE_scale_1 1.1;
+boxfold_bulbpow2_z_factor 2.5;
+mandelbox_color 0 0 0;
+mandelbox_color_Sp1 0;
+mandelbox_color_Sp2 0;
+transf_addition_constant_111 0.9 0.9 0.8;
+transf_maxR2_1 0.93;
+transf_minR2_p25 0;
+transf_scale 1.6;
+transf_start_iterations_A 5;
+transf_stop_iterations_A 9;
+transf_stop_iterations_B 12;
+transf_stop_iterations_C 1;
+transf_stop_iterations_S 4;

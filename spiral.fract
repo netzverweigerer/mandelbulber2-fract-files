@@ -1,0 +1,36 @@
+# Mandelbulber settings file
+# version 2.13
+# only modified parameters
+[main_parameters]
+ambient_occlusion_enabled true;
+ambient_occlusion_quality 5;
+antialiasing_enabled true;
+antialiasing_size 4;
+camera -0.7585210603892165 -0.07351482270896452 0.0002832824706568695;
+camera_distance_to_target 0.0005469702882692418;
+camera_rotation -29.38923910957252 -31.58971003957164 9.159997482614929e-13;
+camera_top 0.2570658361179503 0.4564187740683408 0.8518210249688205;
+DE_factor 0.114815;
+flight_last_to_render 0;
+formula_1 3;
+image_height 1440;
+image_width 2560;
+keyframe_last_to_render 0;
+limit_max 10 10 0;
+limits_enabled true;
+mat1_coloring_palette_offset 5.36;
+mat1_coloring_random_seed 956510;
+mat1_coloring_speed 2.616;
+mat1_file_color_texture /home/armin/Pictures/exile_colormap_8.png;
+mat1_is_defined true;
+mat1_surface_color_palette d739d3 88611e ffe6ff c0fc4f 6f4956 d45852 40a180 7e724d 3ddee4 907c85;
+mat1_use_color_texture true;
+mat1_use_colors_from_palette false;
+target -0.7582924143641825 -0.07310886313060283 -3.238579567847732e-06;
+view_distance_max 13.81473177672692;
+volumetric_fog_colour_1_distance 0.0002849017604407933;
+volumetric_fog_colour_2_distance 0.0005698035208815867;
+volumetric_fog_distance_factor 0.0005698035208815867;
+volumetric_fog_enabled true;
+[fractal_1]
+mandelbox_scale -2;

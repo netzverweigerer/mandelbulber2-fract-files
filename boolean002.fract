@@ -1,0 +1,49 @@
+# Mandelbulber settings file
+# version 2.13
+# only modified parameters
+[main_parameters]
+ambient_occlusion_enabled true;
+ambient_occlusion_quality 6;
+boolean_operators true;
+camera -0.6319081876911292 -0.3348655958085005 0.7792842441855683;
+camera_distance_to_target 0.06447724252939224;
+camera_rotation -27.46761573023931 -69.98241679698819 -4.071109992273301e-13;
+camera_top 0.433382147735082 0.8336694798982841 0.3423085045841718;
+delta_DE_function 2;
+DOF_focus 0.04435643553733826;
+DOF_radius 2.92;
+flight_last_to_render 0;
+formula_1 83;
+image_height 1440;
+image_width 2560;
+keyframe_last_to_render 0;
+main_light_alpha 22.62;
+main_light_beta 16.7;
+main_light_position_relative false;
+main_light_volumetric_enabled true;
+main_light_volumetric_intensity 2.258281290179847;
+mat1_coloring_palette_size 5;
+mat1_coloring_random_seed 446937;
+mat1_coloring_speed 0.4;
+mat1_file_color_texture /home/armin/Pictures/62789_metro_last_light_apocalypse_city_explosion_66659_2560x1600-1400x1050-c.jpg;
+mat1_is_defined true;
+mat1_surface_color_palette 5e1656 1f2f0e 49c300 acbfdf adf63c;
+mat1_use_color_texture true;
+mat1_use_colors_from_palette false;
+N 50;
+penetrating_lights false;
+shadows_cone_angle 3.51;
+target -0.6217279509243174 -0.3152825263743227 0.7187022256066047;
+volumetric_fog_colour_1_distance 0.01575585718618803;
+volumetric_fog_colour_2_distance 0.03151171437237606;
+volumetric_fog_density 1.65959;
+volumetric_fog_distance_factor 0.03151171437237606;
+[fractal_1]
+transf_pwr_8 9.500000000000002;
+transf_pwr_8a 8.800000000000001;
+[fractal_2]
+IFS_rotation_enabled true;
+[fractal_3]
+IFS_rotation_enabled true;
+[fractal_4]
+IFS_rotation_enabled true;
